@@ -45,3 +45,7 @@ body, a:link, a:visited, a:active{
   height: 100px;
 }
 
+audio {
+  display: block;
+  margin: 0 auto;
+}
