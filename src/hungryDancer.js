@@ -1,6 +1,6 @@
 var HungryDancer = function(top, left, timeBetweenSteps){
   Dancer.call(this, top, left, timeBetweenSteps);
-  this.$node = $('<span class="hungry-dancer"></span>');
+  this.$node.addClass('hungry');
 };
 
 HungryDancer.prototype = Object.create(Dancer.prototype);
