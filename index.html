@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Object Dance Party</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="lib/jquery.js"></script>
+    <script src="src/dancer.js"></script>
+    <script src="src/blinkyDancer.js"></script>
+    <script src="src/hungryDancer.js"></script>
+    <script src="src/hRDancer.js"></script>
+  </head>
+  <body>
+    <audio autoplay controls src="moveyourfeet.mp3"></audio>
+    <audio class="collision-sound" autoplay src=""></audio>
+    <div class="topbar">
+      <span class="title">object dance party</span>
+      <a href="#" class="addDancerButton" data-dancer-maker-function-name="BlinkyDancer">add a blinky dancer</a>
+      <a href="#" class="addDancerButton" data-dancer-maker-function-name="HungryDancer">add a hungry dancer</a>
+      <a href="#" class="addDancerButton" data-dancer-maker-function-name="HRDancer">add a HR logo dancer</a>
+      <a href="#" class="methodButton lineUpButton">lineup</a>
+      <a href="#" class="methodButton breakLineButton">break line!</a>
+
+    </div>
+    <script src="src/init.js"></script>
+  </body>
+</html>
